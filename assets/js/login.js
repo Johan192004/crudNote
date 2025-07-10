@@ -22,13 +22,16 @@ document.addEventListener("DOMContentLoaded", async()=>{
         const password = passwordInput.value.trim()
 
         
-        for(const user of users){
-            if(user.username == userOrEmail || user.email == userOrEmail){
+        for(const user in users){
+            if(users[user].username == userOrEmail || users[user].email == userOrEmail){
 
-                if(user.password == password){
+                if(users[user].password == password){
 
-                    window.location = "../../index.html"
+                    window.location = "home.html"
                     console.log("Bienvenido")
+
+                    window.sessionStorage.setItem("auth",true)
+                    window.sessionStorage.setItem("idUser",users[user].id)
 
                 } else {
                     console.log("Contraseña incorrecta")

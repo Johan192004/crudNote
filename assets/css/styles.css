@@ -1,4 +1,43 @@
+:root{
+    --color-gray: #adb5bd;
+}
+
 .btn-secondary {
-    background-color: #adb5bd;
-    border: 1px solid #adb5bd;
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-gray);
+}
+
+.a-nav{
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-options{
+    font-weight: 500;
+    margin-inline: 15px;
+    padding-block: 10px;
+    font-size: 1.25rem;
+    border-bottom: 5px solid var(--color-gray);
+}
+
+.btn-new-note {
+    border-radius: 30px;
+}
+
+.options {
+    gap: 20px;
+}
+
+.note {
+    width: 300px;
+}
+
+.btn-create-note{
+    width: fit-content;
+}
+
+#description {
+    width: 600px;
+    min-width: 300px;
+    min-height: 250px;
 }

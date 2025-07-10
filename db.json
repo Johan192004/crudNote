@@ -2,66 +2,165 @@
   "users": [
     {
       "id": "1",
-      "name": "johan",
+      "name": "Johan",
       "username": "johan192004",
       "email": "johan@gmail.com",
       "password": "password"
     },
     {
-      "name": "Johan Ramirez",
-      "email": "johanruma@gmail.com",
-      "username": "johan19200",
-      "password": "password1",
-      "id": "-v72A-9"
+      "id": "2",
+      "name": "Ana Torres",
+      "username": "ana23",
+      "email": "ana@gmail.com",
+      "password": "123456"
     },
     {
-      "name": "",
-      "email": "",
-      "username": "",
-      "password": "",
-      "id": "1Rgf7rU"
+      "id": "3",
+      "name": "Carlos Méndez",
+      "username": "carlosm",
+      "email": "carlos@gmail.com",
+      "password": "pass123"
     },
     {
-      "name": "dwdwqd",
-      "email": "maryldsafdsfsduzmarin23@hotmail.com",
-      "username": "g4f32fr3d",
-      "password": "fff23dewd",
-      "id": "jEuumjQ"
+      "id": "4",
+      "name": "Laura Gómez",
+      "username": "laurag",
+      "email": "laura@gmail.com",
+      "password": "abc123"
     },
     {
-      "name": "djsandjksand",
-      "email": "maryluzmaasdasdrin23@hotmail.com",
-      "username": "djsandkjsandkj",
-      "password": "nhsadiuhdasbdhusa",
-      "id": "266qZEM"
+      "id": "5",
+      "name": "Diego Ruiz",
+      "username": "diegor",
+      "email": "diego@gmail.com",
+      "password": "qwerty"
     },
     {
-      "name": "dsadsad",
-      "email": "maryluzmfdsfsdfarin23@hotmail.com",
-      "username": "gdfsgsfdvsdfv",
-      "password": "sfvfdacEWFSQEFC",
-      "id": "gPZ28kT"
+      "id": "6",
+      "name": "Lucía Fernández",
+      "username": "luciaf",
+      "email": "lucia@gmail.com",
+      "password": "contraseña"
     },
     {
-      "name": "sjabdjsaj",
-      "email": "ndjasndjsabdj@ydbasj.com",
-      "username": "basdhbsa87dbsad",
-      "password": "padsaiundijsandkjan",
-      "id": "1bAbiJx"
+      "id": "7",
+      "name": "Mateo Martínez",
+      "username": "mateom",
+      "email": "mateo@gmail.com",
+      "password": "pass456"
     },
     {
-      "name": "ndiajsndjksandasdsaf",
-      "email": "maryluzmarin23@hotmail.comasmdlkasmdkasnjdknsdfsd",
-      "username": "dsajdnkjasndkjasnkjdfasdfasd",
-      "password": "fsdfsdfsdfdasd",
-      "id": "d7UIXTn"
+      "id": "8",
+      "name": "Isabella López",
+      "username": "isalopez",
+      "email": "isa@gmail.com",
+      "password": "isa123"
     },
     {
-      "name": "ndjasndjksandjk",
-      "email": "duisandjkasndjk@undasdkjsan.com",
-      "username": "ndajsndkjsandiasndiu",
-      "password": "ndsandkjasndkjsan",
-      "id": "DMxSJ80"
+      "id": "9",
+      "name": "Sofía Ríos",
+      "username": "sofiar",
+      "email": "sofia@gmail.com",
+      "password": "sofia456"
+    },
+    {
+      "id": "10",
+      "name": "Tomás Castro",
+      "username": "tcastro",
+      "email": "tomas@gmail.com",
+      "password": "123abc"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "ownerid": "1",
+      "sharedownersid": ["2", "3"],
+      "title": "Chores",
+      "description": "Do the dishes and sweep",
+      "lastmodification": "18-01-2025",
+      "lastmodificationowner": "3"
+    },
+    {
+      "id": "2",
+      "ownerid": "2",
+      "sharedownersid": [],
+      "title": "Grocery List",
+      "description": "Buy milk, eggs, bread",
+      "lastmodification": "19-01-2025",
+      "lastmodificationowner": "2"
+    },
+    {
+      "id": "3",
+      "ownerid": "3",
+      "sharedownersid": ["1", "5"],
+      "title": "Project Plan",
+      "description": "Define project timeline and deliverables",
+      "lastmodification": "20-01-2025",
+      "lastmodificationowner": "5"
+    },
+    {
+      "id": "4",
+      "ownerid": "4",
+      "sharedownersid": [],
+      "title": "Personal Goals",
+      "description": "Workout 3x a week and read 1 book/month",
+      "lastmodification": "15-01-2025",
+      "lastmodificationowner": "4"
+    },
+    {
+      "id": "5",
+      "ownerid": "5",
+      "sharedownersid": ["6", "7"],
+      "title": "Team Meeting Notes",
+      "description": "Summary of today's sync-up",
+      "lastmodification": "21-01-2025",
+      "lastmodificationowner": "6"
+    },
+    {
+      "id": "6",
+      "ownerid": "6",
+      "sharedownersid": [],
+      "title": "Daily Journal",
+      "description": "Reflections from the day",
+      "lastmodification": "22-01-2025",
+      "lastmodificationowner": "6"
+    },
+    {
+      "id": "7",
+      "ownerid": "7",
+      "sharedownersid": ["8", "9", "10"],
+      "title": "Vacation Ideas",
+      "description": "Places to visit: Japan, Canada, Peru",
+      "lastmodification": "20-01-2025",
+      "lastmodificationowner": "10"
+    },
+    {
+      "id": "8",
+      "ownerid": "8",
+      "sharedownersid": ["1"],
+      "title": "Reading List",
+      "description": "Atomic Habits, Clean Code, 1984",
+      "lastmodification": "17-01-2025",
+      "lastmodificationowner": "1"
+    },
+    {
+      "id": "9",
+      "ownerid": "9",
+      "sharedownersid": [],
+      "title": "Recipe Ideas",
+      "description": "Tacos, lasagna, pad thai",
+      "lastmodification": "19-01-2025",
+      "lastmodificationowner": "9"
+    },
+    {
+      "id": "10",
+      "ownerid": "10",
+      "sharedownersid": ["2", "4"],
+      "title": "Startup Pitch",
+      "description": "Outline of idea, target market, MVP",
+      "lastmodification": "22-01-2025",
+      "lastmodificationowner": "4"
     }
   ]
 }
