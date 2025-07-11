@@ -1,0 +1,20 @@
+{
+  "name": "crudnote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johan192004/crudNote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johan192004/crudNote/issues"
+  },
+  "homepage": "https://github.com/Johan192004/crudNote#readme"
+}

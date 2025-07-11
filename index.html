@@ -9,25 +9,32 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container d-flex justify-content-between">
-            <a class="navbar-brand" href="#">CrudNote</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand fs-4 fw-semibold" href="#">CrudNote</a>
+
+            <!-- BOTÓN DE MENÚ COLAPSABLE (para móviles) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Terms</a>
-                    </li>
-                </ul>
-                <a href="assets/user/login.html" class="btn btn-primary">Sign in</a>
-                <a href="assets/user/register.html" class="btn btn-secondary">Register</a>
+
+            <!-- CONTENIDO DEL MENÚ -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav me-3">
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Terms</a>
+                </li>
+            </ul>
+            <a href="assets/user/login.html" class="btn btn-primary me-2">Sign in</a>
+            <a href="assets/user/register.html" class="btn btn-secondary btn-register">Register</a>
             </div>
         </div>
     </nav>
@@ -35,54 +42,56 @@
     <main class="container-fluid">
         
         <!-- HERO -->
-        <section class="row g-3">
-            <div class="col-5 d-flex justify-content-center">
-                <img src="assets/img/heroImage.PNG" alt="" class="img img-fluid">
-            </div>
-            <div class="col-7">
-                <div class="d-flex flex-column">
-                    <h1>Collaborate on notes with your team</h1>
-                    <p>CrudNote is a collaborative note-taking application that allows you to create, edit, and share notes with your team. Sign up today to get started</p>
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-5 d-flex justify-content-center">
+                    <img src="assets/img/heroImage.PNG" alt="" class="img img-fluid">
                 </div>
-                <div>
-                   <a href="assets/user/login.html" class="btn btn-primary">Sign in</a>
-                    <a href="assets/user/register.html" class="btn btn-secondary">Register</a>       
+                <div class="col-7 align-content-center">
+                    <div class="d-flex flex-column">
+                        <h1 class="fw-bolder">Collaborate on notes with your team</h1>
+                        <p class="fs-5">CrudNote is a collaborative note-taking application that allows you to create, edit, and share notes with your team. Sign up today to get started</p>
+                    </div>
+                    <div>
+                    <a href="assets/user/login.html" class="btn btn-primary">Sign in</a>
+                        <a href="assets/user/register.html" class="btn btn-secondary btn-register">Register</a>       
+                    </div>
                 </div>
             </div>
         </section>
 
 
-        <section class="row">
+        <section class="container mt-5">
             <div class="row">
-                <h2>What is CrudNote?</h2>
-                <p>CrudNote is a collaborative note-taking application that allows you to create, edit, and share notes with your team. Sign up today to get started.</p>
+                <h2 class="fw-bold">What is CrudNote?</h2>
+                <p class="fs-5">CrudNote is a collaborative note-taking application that allows you to create, edit, and share notes with your team. Sign up today to get started.</p>
             </div>
-            <div class="row g-3">
-                <div class="card col-md-4">
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Create</h2>
-                        <p class="card-text">Create notes with rich text editing, images, and more.</p>
-                    </div>
-                </div>
-                <div class="card col-md-4">
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Collaborate</h2>
-                        <p class="card-text">Collaborate with your team in real-time.</p>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/create.PNG" alt="">
+                            <h4 class="card-title fw-semibold ">Create</h4>
+                            <p class="card-text text-secondary">Create notes with rich text editing, images, and more.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-md-4">
-                    <div>
-                        <img src="" alt="">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/collaborative.PNG" alt="">
+                            <h4 class="card-title fw-semibold ">Collaborate</h4>
+                            <p class="card-text text-secondary">Collaborate with your team in real-time.</p>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Share</h2>
-                        <p class="card-text">Share your notes with your team or the world.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/share.PNG" alt="">
+                            <h4 class="card-title fw-semibold ">Share</h4>
+                            <p class="card-text text-secondary">Share your notes with your team or the world.</p>
+                        </div>
                     </div>
                 </div>
 

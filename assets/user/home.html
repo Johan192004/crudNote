@@ -10,10 +10,10 @@
 <body>
     <nav class="navbar navbar-light bg-light border-bottom">
         <a class="navbar-brand" href="../../index.html">CrudNote</a>
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-row align-items-center">
             <a href="" class="btn btn-secondary" id="signOut">Sign out</a>
-            <div class="img-container">
-                <img src="" alt="" class="max-h-100">
+            <div class="img-container mx-3">
+                <canvas id="avatar" width="35" height="35"></canvas>
             </div>
         </div>
     </nav>
@@ -22,39 +22,41 @@
 
     
         
+        <div id="first">
+            <section class="container">
+                <h1 class="welcome">Hello, Antony</h1>
 
-        <section class="container">
-            <h1 class="welcome">Hello, Antony</h1>
-
-            <div class="w-100 border-bottom">
-                <div class="options d-flex">
-                    <div class="nav-options">
-                        <a href="" class="a-nav">All</a>
+                <div class="w-100 border-bottom">
+                    <div class="options d-flex">
+                        <div class="nav-options">
+                            <a href="" class="a-nav active-option" id="all">All</a>
+                        </div>
+                        <div class="nav-options" >
+                            <a href="" class="a-nav" id="personalOption">Personal</a>
+                        </div>
+                        <div class="nav-options">
+                            <a href="" class="a-nav" id="shared">Shared</a>
+                        </div>
                     </div>
-                    <div class="nav-options">
-                        <a href="" class="a-nav">Personal</a>
-                    </div>
-                    <div class="nav-options">
-                        <a href="" class="a-nav">Shared</a>
-                    </div>
-                </div>
-                
-            </div>
-
-            <div class="w-100 mt-4">
-                <h2>My notes</h2>
-                <div class="myNotesDiv d-flex flex-column gap-3">
                     
                 </div>
-            </div>
-            <div class="w-100 mt-4">
-                <h2>Notes Shared With Me</h2>
-                <div class="sharedNotesDiv d-flex flex-row gap-3"></div>
-            </div>
-            <div class="w-100 mt-4 d-flex justify-content-end">
-                <button class="btn btn-primary btn-new-note" id="newNote">+ New Note</button>
-            </div>
-        </section>
+
+                <div class="w-100 mt-4 myNotesDivFather">
+                    <h2>My notes</h2>
+                    <div class="myNotesDiv d-flex flex-column gap-3">
+                        
+                    </div>
+                </div>
+                <div class="w-100 mt-4 sharedNotesDivFather">
+                    <h2>Notes Shared With Me</h2>
+                    <div class="sharedNotesDiv d-flex flex-row gap-3"></div>
+                </div>
+                <div class="w-100 mt-4 d-flex justify-content-end">
+                    <button class="btn btn-primary btn-new-note" id="newNote">+ New Note</button>
+                </div>
+                
+            </section>
+        </div>
 
 
     </main>
